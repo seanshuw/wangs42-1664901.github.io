@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <head>
+        <title> Shu's Css website</title >
+        <style>
+            p.a {font: 30px arial, sans-serif;}
+            p.b {font: 30px times, sans-serif;}
+            body {background-color: rgb(226, 223, 23);}
+            
+
+            .container {position: relative;}
+
+            .center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 45px;
+                color:aliceblue}
+            .margin{margin-top: 20px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                margin-left: 20px;}
+            p.dotted {border-style: dotted;}
+            
+            #rcorners1 {
+            border-radius: 35px;
+            background: red;
+            padding: 40px; 
+            width: 200px;
+            height: 150px;}
+        </style>
+        <link rel="stylesheet" type="text/css" href="anExternal.css">
+    </head>  
+
+    <body>
+    <h1>Newbie</h1>
+    <p class = "a"> This is a paragraph with arial font. </p>
+    <p class = "b"> This is another paragraph with times font. </p>
+    <img src ="DSCF1070.jpg" width="50" height="50"> 
+    <img src ="DSC00081-Enhanced.jpg" width="50" height="50">    
+
+    <h2>Apprentice</h2>
+    <div class="container">
+    <img src ="P1000206.jpg" width="100%" height="100%" > 
+    <div class="center">Gas Park</div>
+    </div>
+    <div class="margin">
+    <img src = "1.png"></div>
+    <p class="dotted">This text is borded by dotted lines.</p>
+
+    <h2>Master</h2>
+    <p id = "rcorners1" >text floated to the right.</p>
+    
+    </body>
+</html>
