@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Job Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+    <fieldset>
+        <textarea name="essay">This is a Job application for Info 101 TAs. University of Washington need to verify that you are a smart guy. Are u a smart guy?</textarea><br>
+        <input type="radio" name="answer" value="yes"> Yes<br> 
+        <input type="radio" name="answer" value="no"> No
+    </fieldset>
+    
+	<fieldset>
+		<legend>UW Information</legend>
+		<div class="field">
+			<label>uwID:</label> 
+			<input type="text" name="UWnet ID">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>First Name:</label> 
+            <input type="text" name="firstname">
+            <label>Last Name:</label> 
+            <input type="text" name="lastname">
+		</div>
+		<div class="field">
+			<label>How do u go to school?</label> <br>
+			<input type="checkbox" name="vehicle" value="Bike">I have a bike<br> 
+			<input type="checkbox" name="vehicle" value="Car">I have a car<br>
+			<input type="checkbox" name="vehicle" value="foot">I have my own foot<br> 
+			<input type="checkbox" name="vehicle" value="fly">I can fly
+		</div>
+		
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>What kind of super-power do u have?</label> <br>
+			<select name="super-power"> 
+				<option value="Elasticity">Elasticity</option> 
+				<option value="Nature Manipulation">Nature Manipulation</option> 
+				<option value="Teleportation">Teleportation</option>
+				<option value="Regenerative Healing Factor">Regenerative Healing Factor</option> 
+				<option value="Magic">Magic</option> 
+				<option value="Psionic Manipulation">Psionic Manipulation</option> 
+				<option value="Cosmic Manipulation">Cosmic Manipulation</option> 
+			</select>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>What superpowers can u teach to the Info 101 students, and How?</label><br>
+			<textarea name="deserve" rows="8" cols="70"></textarea>
+		</div>
+		<div class="field">
+			<label>Describe what did u do with your superpowers.</label><br>
+			<textarea name="project" rows="8" cols="70"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
